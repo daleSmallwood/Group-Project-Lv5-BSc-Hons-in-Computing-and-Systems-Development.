@@ -1,0 +1,2 @@
+To view this website: please importthe data base provided within the database folder using xamp control panel v3.3.0
+Password for the network: mypassword

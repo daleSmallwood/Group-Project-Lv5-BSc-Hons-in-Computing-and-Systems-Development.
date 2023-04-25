@@ -1,0 +1,175 @@
+*{
+  margin: 0;
+  padding:0;
+}
+.kebabBody{
+  background-color: rgb(255,99,37);
+}
+
+.CompanyLogo{
+  overflow: hidden;
+  background-color: rgb(245,176,65);
+  width: 20%;
+  height: 180px;
+  top: 60px;
+  left: 20px;
+  position: relative;
+}
+.Login{
+  overflow: hidden;
+  background-color: rgb(245,176,65);
+  border: 3px solid black;
+  border-radius: 10px;
+  width: 10%;
+  height: 30px;
+  top: 70px;
+  right: 10px;
+  float: right;
+  position: fixed;
+  text-align:center;
+}
+.Login a{
+  color: black;
+  font-size: 22px;
+}
+
+/* -----Nav css ---- */
+.NavBar{
+  width: 100%;
+  position: fixed;
+  display: flex;
+  height: 5%;
+  top: 10px;
+  border: 3px solid black;
+  background-color: rgb(255,153,37);
+  z-index: 1;
+}
+li{
+  list-style-type: none;
+  padding: 0;
+  width: 40px;
+  left: 350px;
+  text-align: justify;
+  display: inline;
+  position: relative;
+  top: 10px;
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 60px;
+}
+li a{
+  height: 10px;
+  width:20px;
+  border: 2px solid black;
+  color: black;
+  padding: 5px;
+}
+/* Nav css end */
+.logout a: hover {
+  background-color: rgb(255,208,37);
+}
+.Logout a{
+  color: white;
+  font-size: 18px;
+}
+.LoginStatusContainer{
+  overflow: hidden;
+  background-color: rgb(255,208,37);
+  border: 5px solid black;
+  border-radius: 20px;
+  width: 35%;
+  height: 350px;
+  bottom: 25px;
+  left: 500px;
+  position: relative;
+}
+
+
+.LoginStatusContainer h2{
+color: white;
+text-shadow: -2px -2px 0 black, 2px -2px 0 black,-2px 2px 0 black,2px 2px 0 black,-3px 0 0 black,3px 0 0 black,0 3px 0 black,0 -3px 0 black;
+text-align: left;
+margin-left: 5px;
+font-size: 30px;
+}
+.LoginStatusContainer p{
+color: black;
+position: relative;
+text-align: center;
+margin-left: 2px;
+font-size: 25px;
+}
+
+
+.contactContainer{
+  overflow: hidden;
+  background-color: rgb(255,208,37);
+  border: 5px solid black;
+  border-radius: 20px;
+  width: 35%;
+  height: 350px;
+  bottom: 25px;
+  left: 500px;
+  position: relative;
+}
+
+
+.contactContainer h2{
+color: black;
+text-align: center;
+margin-left: 5px;
+font-size: 30px;
+}
+.contactContainer p{
+color: black;
+position: relative;
+text-align: center;
+margin-left: 2px;
+font-size: 25px;
+}
+
+.contactButtons{
+position: relative;
+width: 450px;
+left: 50px;
+bottom: 10px;
+}
+.contactInput input{
+position: relative;
+top :15px;
+left: 15px;
+width: 80%;
+height: 40px;
+margin-left: 5px;
+margin-bottom: 20px;
+}
+.contactButton{
+  background-color: rgb(255,153,37);
+position: relative;
+padding: 5px 5px;
+top: 30px;
+height: 50px;
+width: 40%;
+left: 120px;
+}
+.contactButton:hover{
+  background-color: rgb(243,116,41);
+}
+.contactButton a{
+color: white;
+  }
+  Footer{
+    top: 100px;
+    width: 99%;
+    height: 20px;
+    border-radius: 15px;
+    border:3px solid black;
+    background-color: rgb(255,153,37);
+    position:relative;
+    float:left;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom:20px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
